@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 function Layout({ children }) {
     return (
-        <div>
+        <div className="layout">
             <Head>
                 <title>Furkan Açıkgöz</title>
             </Head>
