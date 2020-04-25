@@ -8,9 +8,8 @@ function Layout({ children }) {
             <Head>
                 <title>Furkan Açıkgöz</title>
             </Head>
-            <Navigation />
+
             <main>{children}</main>
-            <footer>FA</footer>
         </div>
     );
 }
